@@ -8,7 +8,7 @@ public class AccessingData {
         al.add(20);
         al.add(12);
         al.add(60);
-        al.add(4);
+        al.add(41);
         System.out.println(al);
 //        int s=(int) al.get(2);
 //        System.out.println(s);
