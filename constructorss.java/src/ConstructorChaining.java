@@ -46,6 +46,7 @@ public class ConstructorChaining {
     public static void main(String args[]) {
         Salary s=new Salary();
         s.lpa();
+        s.matched();
 
 
 
