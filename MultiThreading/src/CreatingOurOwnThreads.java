@@ -61,6 +61,9 @@ public class CreatingOurOwnThreads     //Extending one predefined class called T
 {
     public static void main(String[] args) throws InterruptedException
     {
+        System.out.println("Application Started");
+
+
         Tasks1 t1=new Tasks1();  //You have created
         Tasks2 t2=new Tasks2();  // new
         Tasks3 t3=new Tasks3();  //Threads
@@ -68,6 +71,12 @@ public class CreatingOurOwnThreads     //Extending one predefined class called T
         t1.start();   // Giving
         t2.start();   // Life to
         t3.start();  // The Threads
+
+        t1.join();
+        t2.join();
+        t3.join();
+
+        System.out.println("Application Terminated");
 
     }
 
