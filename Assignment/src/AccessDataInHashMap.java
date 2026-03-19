@@ -31,7 +31,7 @@ public class AccessDataInHashMap
         Iterator itr3=entry.iterator();
         while(itr3.hasNext()){
             Map.Entry pair=(Map.Entry)itr3.next();
-            System.out.println("Key "+pair.getKey()+"Value: "+pair.getValue());
+            System.out.println("Key:"+pair.getKey()+" Value:"+pair.getValue());
         }
     }
 }
