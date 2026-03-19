@@ -1,7 +1,7 @@
 import java.util.*;
 public class WildCards2
 {
-    public static void displayList(List<?>list){
+    public static void displayList(List<?>list){//Unbounded wildcards inside this we can only read elements
         System.out.println("Displaying List Contents:");
 
         for(Object obj:list){
