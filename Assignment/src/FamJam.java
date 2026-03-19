@@ -102,6 +102,7 @@ public class FamJam {
                     System.out.println("Enter Family member resident city");
                     String citys=sc.nextLine();
                     updateMembers(names,member,citys);
+                    break;
 
                 case 4:
                     System.out.println("Enter Family name to search:");
