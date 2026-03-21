@@ -2,7 +2,7 @@ public class Recursion11
 {
     public static void f(String str,int idx,String output){
         if(idx==str.length()){
-            System.out.println(output);
+            System.out.println("["+output+"]");
             return;
         }
 
